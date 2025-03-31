@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "displayName": "Pathfinding",
   "description": "This package provides A* Pathfinding algorithm",
+  "unity:": "2022.3",
   "author": {
     "name": "Miro Kroslin",
     "url": "https://github.com/Mirrro"
