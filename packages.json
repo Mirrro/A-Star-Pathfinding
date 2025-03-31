@@ -1,0 +1,10 @@
+{
+  "name": "com.Mirrro.pathfinding",
+  "version": "1.0.0",
+  "displayName": "Pathfinding",
+  "description": "This package provides A* Pathfinding algorithm",
+  "author": {
+    "name": "Miro Kroslin",
+    "url": "https://github.com/Mirrro"
+  }
+}
