@@ -10,7 +10,7 @@ namespace Mirrro.Pathfinding
     {
         public Vector2Int CurrentGridPosition { get; private set; }
 
-        public void MoveAlongPath(List<Node> path, Action callback)
+        public void MoveAlongPath(List<Vector2Int> path, Action callback)
         {
             if (path == null || path.Count == 0)
             {
@@ -18,7 +18,7 @@ namespace Mirrro.Pathfinding
                 return;
             }
 
-            var positions = path.Select(n => new Vector3(n.X, 0, n.Y)).ToList();
+            var positions = path.Select(step => new Vector3(step.x, 0, step.y)).ToList();
             StartCoroutine(MoveRoutine(positions, callback));
         }
 
