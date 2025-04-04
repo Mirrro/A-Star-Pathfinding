@@ -96,7 +96,7 @@ public static PathFinderNode[,] ToNodeGridForGroundUnits(this MyTileData[,] grid
         {
             // Occupied tiles are non-walkable
             bool isOccupied = grid[x, y].EnemyCount > 0;
-            nodeGrid[x, y] = new PathFinderNode(isOccupied);
+            nodeGrid[x, y] = new PathFinderNode(!isOccupied);
         }
     }
 
