@@ -10,7 +10,7 @@ https://github.com/user-attachments/assets/8f3d9064-679c-459b-a24b-83103cc4d920
 ## Installation
 To import the package you can use the Unity Package Manager via git URL:
 
-`https://github.com/Mirrro/a-star-pathfinding`
+`https://github.com/Mirrro/A-Star-Pathfinding.git`
 
 Or by manually editing your manifest.json file.
 ```
