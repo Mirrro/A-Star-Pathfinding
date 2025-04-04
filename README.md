@@ -45,7 +45,7 @@ Vector2Int playerPos = playerView.CurrentGridPosition;
 
 if (Pathfinder.TryGetPath(out var path, myGrid.ToNodeGrid(), playerPos, targetPos))
 {
-    playerView.MoveAlongPath(path, OnPlayerFinishedMoving);
+    playerView.MoveAlongPath(path);
 }
 ```
 
